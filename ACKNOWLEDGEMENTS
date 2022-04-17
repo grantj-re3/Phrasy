@@ -1,0 +1,20 @@
+
+ACKNOWLEDGEMENTS
+
+1/ This game is mostly based on the game of hangman. The main
+   variations are:
+
+   - word-phrases are supported (not just individual words)
+   - instead of only being permitted to guess a single letter,
+     the player is also permitted to guess sequences of letters
+   - the diagram of a hanging man for incorrect letters has
+     been replaced by a (configurable) maximum number of guesses
+
+
+2/ The "proverbial phrases" list was derived from the Wikipedia
+   page "List of proverbial phrases" at URL
+   https://en.wikipedia.org/wiki/List_of_proverbial_phrases
+   The page is kindly available under the Creative Commons
+   Attribution-ShareAlike 3.0 Unported License as described at
+   https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+
