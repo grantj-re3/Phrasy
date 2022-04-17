@@ -51,17 +51,22 @@ After downloading/unzipping (or git-clone)...
 
 ```
 $ cd Phrasy
-$ chmod 755 mw.rb   # Once only; make the main file executable
-$ ./phrasy.rb       # Run
+$ chmod 755 phrasy.rb   # Once only; make the main file executable
+$ ./phrasy.rb           # Run
 ```
 
 or
 
 ```
 $ cd Phrasy
-$ ruby phrasy.rb    # Run
+$ ruby phrasy.rb        # Run
 ```
 
 Note that I have used '$' above to represent the Linux command
 line prompt. You should not type the '$' sign above.
+
+
+## Screenshot of the Phrasy game
+
+![Screenshot of Phrasy game](/assets/images/phrasy1d.png)
 

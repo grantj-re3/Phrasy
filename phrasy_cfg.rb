@@ -57,10 +57,10 @@ class Config
       :is_pause_at_end_game   => false,
 
       # DEBUG: Allow user to cheat by showing the phrase! Useful during debugging.
-      :is_allow_show_phrase   => true,
+      :is_allow_show_phrase   => false,
 
       # DEBUG: Show the configuration parameters
-      :is_show_config         => true,
+      :is_show_config         => false,
 
       # DEBUG: Print lines which show column positions. This value specifies how
       # many column positions to show (usually 80 or more). Do not print debug
