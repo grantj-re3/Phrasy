@@ -107,6 +107,8 @@ class Config
         * If you entered "la" then no extra information would be displayed
           because that *sequence* is not present (even though "L" and "A"
           are present).
+      - The "Untried letters" column only shows *individual* letters (not
+        sequences) which have not yet been attempted during the game.
       - Better results are indicated by less guesses/turns.
       - ':q' to quit (without the quotes).
       #{@help[:show_cmd]}

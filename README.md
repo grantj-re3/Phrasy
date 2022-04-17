@@ -34,6 +34,8 @@ trying to guess a secret phrase. E.g. EVERY CLOUD HAS A SILVER LINING.
   * If you entered "la" then no extra information would be displayed
     because that *sequence* is not present (even though "L" and "A"
     are present).
+- The "Untried letters" column only shows *individual* letters (not
+  sequences) which have not yet been attempted during the game.
 
 
 ## Configuration
