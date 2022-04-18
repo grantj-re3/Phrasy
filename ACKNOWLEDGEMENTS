@@ -14,8 +14,27 @@ ACKNOWLEDGEMENTS
 2/  The "proverbial phrases" list was derived from the Wikipedia
     page "List of proverbial phrases" at URL
     https://en.wikipedia.org/wiki/List_of_proverbial_phrases
+
     The page is kindly available under the Creative Commons
     Attribution-ShareAlike 3.0 Unported License as described at:
     - https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
     - https://creativecommons.org/licenses/by-sa/3.0/
+
+3/  The world bird list was derived from the IOC World Bird
+    List master spreadsheet "Life List+" (v12.1 Excel File
+    XLSX, 3.0Mb) at URL
+    https://www.worldbirdnames.org/new/ioc-lists/master-list-2/
+
+    Citation:
+      Gill F, D Donsker & P Rasmussen (Eds). 2022.
+      IOC World Bird List (v12.1). doi: 10.14344/IOC.ML.12.1
+      https://doi.org/10.14344/IOC.ML.12.1
+
+    The list/site is kindly available under the Creative Commons
+    Attribution 3.0 Unported License as described at:
+    - https://creativecommons.org/licenses/by/3.0/deed.en_US
+
+    Changes:
+    - Extracted non-extinct species
+    - Changed punctuation to align with program requirements
 
