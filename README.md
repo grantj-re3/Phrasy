@@ -72,3 +72,59 @@ line prompt. You should not type the '$' sign above.
 
 ![Screenshot of Phrasy game](/assets/images/phrasy1d.png)
 
+
+## How to add a new program with a new phrase list
+
+Let's say that you want to create an additional phrasy game with:
+
+- program name: movies.rb
+- it's own configuration file
+- phrase list filename: kids_movies.txt
+
+then this is how you do it!
+
+1.  Add the new phrase-list file, kids_movies.txt to the folder "phrasefiles"
+    - One phrase per line
+    - Only letters A to Z and space characters permitted. For example, remove
+      commas, fullstops, quotation marks, smart quotes and replace hyphens
+      with spaces.
+    - Note that the program will force all lower case letters to capital
+      letters.
+
+```
+$ cd Phrasy
+$ cp -vip /PATH/TO/kids_movies.txt phrasefiles
+```
+
+1.  Copy the program file
+
+```
+$ cp -vip phrasy.rb movies.rb
+```
+
+1.  Copy the configuration file
+
+    The configuration filename ***must*** comply with the following rule:
+    If the new program name were *MYPROG.rb*, then the corresponding config
+    file would be *MYPROG_cfg.rb*.
+
+```
+$ cp -vip phrasy_cfg.rb movies_cfg.rb
+```
+
+1.  Point to the phrase-list file within the configuration.
+
+    In the section:
+
+```
+    @phrasefiles = { ... }
+```
+
+    change the filename line to:
+
+```
+    nil => "kids_movies.txt",
+```
+
+1.  Change any other features within the configuration file as desired.
+
