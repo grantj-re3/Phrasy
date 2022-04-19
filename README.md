@@ -51,6 +51,9 @@ The file phrasy_cfg.rb allows you to configure:
 
 After downloading/unzipping (or git-clone)...
 
+
+### For "proverbial phrases" ...
+
 ```
 $ cd Phrasy
 $ chmod 755 phrasy.rb   # Once only; make the main file executable
@@ -66,6 +69,15 @@ $ ruby phrasy.rb        # Run
 
 Note that I have used '$' above to represent the Linux command
 line prompt. You should not type the '$' sign above.
+
+
+### For "world birds" ...
+
+```
+$ cd Phrasy
+$ chmod 755 worldbirds.rb   # Once only; make the main file executable
+$ ./worldbirds.rb           # Run
+```
 
 
 ## Screenshot of the Phrasy game
