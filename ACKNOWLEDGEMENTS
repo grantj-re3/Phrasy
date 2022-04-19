@@ -20,6 +20,12 @@ ACKNOWLEDGEMENTS
     - https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
     - https://creativecommons.org/licenses/by-sa/3.0/
 
+    Changes:
+    - Extracted phrases
+    - Minor changes (removal of links, duplicates, etc.)
+    - Changed punctuation to align with program requirements
+
+
 3/  The world bird list was derived from the IOC World Bird
     List master spreadsheet "Life List+" (v12.1 Excel File
     XLSX, 3.0Mb) at URL
